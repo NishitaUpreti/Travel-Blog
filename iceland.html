@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 500px;
+            background: url('https://intotheglacier.is/wp-content/uploads/2023/05/h-breathtaking-icelandic-waterfalls.jpg') no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        
+        /* Content Section */
+        .content-container {
+            max-width: 1200px;
+            margin: 80px auto 40px;
+            padding: 20px;
+        }
+        
+        .content-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 40px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .content-section img {
+            width: 300px;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        .text-content {
+            max-width: 800px;
+        }
+        
+        .text-content h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        /* Styling for the list in the text content */
+        .text-content ol {
+            padding-left: 20px;
+            list-style-position: inside;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .text-content ol li {
+            margin: 10px 0; /* Adds spacing between items */
+            padding: 10px; /* Adds padding inside each item */
+            border-bottom: 1px solid #ddd; /* Adds a subtle line to separate items */
+        }
+
+        .text-content ol li:last-child {
+            border-bottom: none; /* Removes the line after the last item */
+        }
+
+        .text-content ol li b {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .text-content ol li:hover {
+            background-color: #f9f9f9; /* Highlights item on hover */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #000000;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">The Travel Tales</a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="add-blog.html">Blog</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>15 BEST WATERFALLS IN ICELAND</h1>
+    </section>
+    
+    <!-- Content Sections -->
+    <div class="content-container">
+        <div class="content-section">
+            <div class="text-content">
+                <h2>15 Amazing Waterfalls In Iceland</h2>
+                <p>Iceland is famous for its extraordinary waterfalls, each unique in size, shape, and setting. Here are 15 of the most breathtaking waterfalls to experience in Iceland:</p>
+                <ol>
+                    <li><b>Gullfoss:</b> One of Iceland’s most famous waterfalls, Gullfoss is a two-tiered waterfall on the Hvítá River that drops into a rugged canyon, known for its power and beauty.</li>
+                    <li><b>Seljalandsfoss:</b> Located along the Ring Road, this 60-meter waterfall lets visitors walk behind the cascading water, offering an unusual and immersive view of the falls and the landscape.</li>
+                    <li><b>Skógafoss:</b> A stunning, 60-meter high waterfall near Skógar, with an intense flow and a rainbow often visible on sunny days. It’s also easily accessible from the Ring Road.</li>
+                    <li><b>Dettifoss:</b> Europe’s most powerful waterfall, located in Vatnajökull National Park, known for its raw force and mist. It’s a truly humbling sight.</li>
+                    <li><b>Goðafoss:</b> Known as the "Waterfall of the Gods," this beautifully curved waterfall on the Skjálfandafljót River is steeped in Icelandic folklore.</li>
+                    <li><b>Kirkjufellsfoss:</b> A small but picturesque waterfall, best known for its view of Mount Kirkjufell in the background, creating one of Iceland’s most iconic photo spots.</li>
+                    <li><b>Hraunfossar:</b> A series of smaller waterfalls that trickle through lava fields and pour into the Hvítá River, creating a beautiful scene of water flowing over dark lava rock.</li>
+                    <li><b>Barnafoss:</b> Just a short distance from Hraunfossar, this waterfall is famous for its striking blue waters and unique rock formations.</li>
+                    <li><b>Svartifoss:</b> Located in Skaftafell National Park, this waterfall is framed by striking black basalt columns, creating a unique, cathedral-like backdrop.</li>
+                    <li><b>Háifoss:</b> One of Iceland’s tallest waterfalls, Háifoss plunges 122 meters into a rugged canyon, surrounded by scenic Icelandic highland landscapes.</li>
+                    <li><b>Aldeyjarfoss:</b> Known for its striking basalt column formations, Aldeyjarfoss is a stunning waterfall set in a dramatic, rocky landscape in the north of Iceland.</li>
+                    <li><b>Ófærufoss:</b> This multi-tiered waterfall in the Eldgjá canyon was once famous for its natural stone bridge, which collapsed in the 1990s but still remains beautiful and remote.</li>
+                    <li><b>Dynjandi:</b> Sometimes called “The Jewel of the Westfjords,” Dynjandi is a cascading waterfall with a wide, bridal-veil shape that flows down a mountain in multiple tiers.</li>
+                    <li><b>Glymur:</b> Iceland’s second-tallest waterfall, with a drop of 198 meters, located in a scenic canyon. The hike to Glymur includes caves, rivers, and scenic views, making it an adventure.</li>
+                    <li><b>Fagrifoss:</b> Translating to "Beautiful Falls," Fagrifoss is true to its name, with wide, flowing waters nestled in a remote and picturesque Icelandic landscape.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

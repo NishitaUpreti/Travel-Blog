@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post Example</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    /* Reset margin and padding for the body */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding-top: 60px; /* Space to account for the fixed header height */
+    }
+
+    /* Header styling */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000000b2;
+        z-index: 10;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        gap: 15px;
+        color: white;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    /* Post container styling */
+    .post-container {
+        max-width: 800px;
+        margin: 20px auto;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .post-header {
+        background-color: #000;
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .post-meta {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .post-content {
+        padding: 15px;
+        display: flex;
+        gap: 15px;
+    }
+
+    .post-image img {
+        max-width: 150px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    #para {
+        flex: 1;
+        color: #333;
+    }
+
+    #para p {
+        line-height: 1.6;
+    }
+
+    .post-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        font-size: 14px;
+        color: #666;
+        border-top: 1px solid #ddd;
+    }
+
+    .add-blog-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .add-blog-button {
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    .add-blog-button:hover {
+        background-color: #333;
+    }
+</style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo"> 
+            <img src="t.png" alt="" id="l1"> The Travel Tales
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Blog Post Section -->
+    <div class="post-container">
+        <div class="post-header">Shropshire 52 - Shrewsbury - a continued walk around the town/the alleyways/the redundant church</div>
+        <div class="post-meta">
+            <span>November 7th 2024</span>
+            <span>Europe » United Kingdom » England » Shropshire » Shrewsbury</span>
+        </div>
+        <div class="post-content">
+            <div class="post-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/St_Mary_Wythall.jpg/800px-St_Mary_Wythall.jpg" alt="Ancient Saxon wall decorations">
+            </div>
+            <div id="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, perferendis recusandae dignissimos nesciunt mollitia odio necessitatibus quasi a corrupti nemo, cum aspernatur distinctio facilis explicabo deserunt eaque officia fugiat excepturi omnis perspiciatis commodi! Placeat facilis assumenda veritatis illo repellat hic.</p>
+            </div>
+        </div>
+        <div class="post-footer">
+            <div>10 Views | Published: November 7th 2024</div>
+            <div>Words: 1231 | Comments: 0 | Photos: 1</div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-header">Sanbao Village</div>
+        <div class="post-meta">
+            <span>June 7th 2024</span>
+            <span>Asia » China » Jiangxi » Jingdezhen</span>
+        </div>
+        <div class="post-content">
+            <div class="post-image">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/31/16/35/caption.jpg?w=1200&h=-1&s=1" alt="Sanbao Village scenery">
+            </div>
+            <div id="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, perferendis recusandae dignissimos nesciunt mollitia odio necessitatibus quasi a corrupti nemo, cum aspernatur distinctio facilis explicabo deserunt eaque officia fugiat excepturi omnis perspiciatis commodi! Placeat facilis assumenda veritatis illo repellat hic.</p>
+            </div>
+        </div>
+        <div class="post-footer">
+            <div>10 Views | Published: June 7th 2024</div>
+            <div>Words: 1271 | Comments: 0 | Photos: 1</div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-header">Letters from Nigeria - Yola, 1972 November 14 - 25</div>
+        <div class="post-meta">
+            <span>January 8th 2024</span>
+            <span>Africa » Nigeria » Adamawa (state) » Yola</span>
+        </div>
+        <div class="post-content">
+            <div class="post-image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/AUN_Campus.jpg" alt="Ancient Saxon wall decorations">
+            </div>
+            <div id="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, perferendis recusandae dignissimos nesciunt mollitia odio necessitatibus quasi a corrupti nemo, cum aspernatur distinctio facilis explicabo deserunt eaque officia fugiat excepturi omnis perspiciatis commodi! Placeat facilis assumenda veritatis illo repellat hic.</p>
+            </div>
+        </div>
+        <div class="post-footer">
+            <div>10 Views | Published: November 7th 2024</div>
+            <div>Words: 1231 | Comments: 0 | Photos: 1</div>
+        </div>
+    </div>
+
+    <div class="post-container">
+        <div class="post-header">A Stopover in Dublin On Our Way Back to the US - April 1-6, 2024</div>
+        <div class="post-meta">
+            <span>October 31st 2024</span>
+            <span>Europe » Ireland » County Dublin » Dublin</span>
+        </div>
+        <div class="post-content">
+            <div class="post-image">
+                <img src="https://yugo.com/resource/image/599614/portrait_ratio2x3/600/900/f7c3ca21eecd1def899ae13d4b09db09/E6C6BF3DAEAEB26E07D70EB9591184E0/dublin-city-picture.webp" alt="Ancient Saxon wall decorations">
+            </div>
+            <div id="para">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, perferendis recusandae dignissimos nesciunt mollitia odio necessitatibus quasi a corrupti nemo, cum aspernatur distinctio facilis explicabo deserunt eaque officia fugiat excepturi omnis perspiciatis commodi! Placeat facilis assumenda veritatis illo repellat hic.</p>
+            </div>
+        </div>
+        <div class="post-footer">
+            <div>10 Views | Published: November 7th 2024</div>
+            <div>Words: 1231 | Comments: 0 | Photos: 1</div>
+        </div>
+    </div>
+
+    <!-- Add Blog Button -->
+    <div class="add-blog-button-container">
+        <button class="add-blog-button" onclick="openAddBlogPage()">Add Blog</button>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>

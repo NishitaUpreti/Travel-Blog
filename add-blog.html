@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <section class="add-blog-form">
+        <h2>Add a New Blog Post</h2>
+        <form id="blogForm">
+            <label for="blogImage">Select an Image:</label>
+            <input type="file" id="blogImage" accept="image/*" required>
+            
+            <label for="blogTitle">Title:</label>
+            <input type="text" id="blogTitle" placeholder="Enter blog title" required>
+            
+            <label for="blogContent">Content:</label>
+            <textarea id="blogContent" placeholder="Write your blog content" required></textarea>
+            
+            <button type="submit">Add Blog Post</button>
+        </form>
+    </section>
+
+    <script src="script1.js"></script>
+</body>
+</html>

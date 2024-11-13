@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Travel Tales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="t.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <img src="t.png" alt="" id="l1"> The Travel Tales</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Gallery</a></li>
+                <!-- <li><a href="#">About</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>EXPLORE. DREAM. DISCOVER.</h1>
+            <p>This is a world travel blog featuring beautiful destinations, new experiences, and hidden places around the globe.</p>
+            <p>Please tag along!</p>
+            <button onclick="startExploring()">Start Exploring</button>
+        </div>
+    </section>
+    <section class="popular-posts">
+        <h2> Travel guides</h2>
+        <div class="tiles">
+              
+            <div class="tile" onclick="openPost('machu_picchu.html')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" alt="Machu Picchu">
+                <h3>10 Best Things to Do at Machu Picchu</h3>
+            </div>
+            <div class="tile" onclick="openPost('iceland.html')">
+                <img src="https://intotheglacier.is/wp-content/uploads/2023/05/h-breathtaking-icelandic-waterfalls.jpg" alt="15 AMAZING WATERFALLS IN ICELAND">
+                <h3>15 AMAZING WATERFALLS IN ICELAND</h3>
+            </div>
+            <div class="tile" onclick="openPost('machu_picchu.html')">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZMfFyRTgcH4oKrHqrs3T6l7YLMoqeyCrTtg&s" alt="Machu Picchu">
+                <h3>BAGAN MYANMAR TRAVEL GUIDE</h3>
+            </div>
+            <div class="tile" onclick="openPost('machu_picchu.html')">
+                <img src="https://finduslost.com/wp-content/uploads/2021/08/Zakynthos-Greece-Travel-Guide-7114.jpg" alt="Machu Picchu">
+                <h3>ZAKYNTHOS ISLAND GUIDE FOR GREECE</h3>
+            </div>
+            <div class="tile" onclick="openPost('machu_picchu.html')">
+                <img src="https://lp-cms-production.imgix.net/2024-08/shutterstockRF273953330.jpg?fit=crop&w=3840&auto=format&q=75" alt="Machu Picchu">
+                <h3>How To Do The Everest Base Camp Trek In Nepal</h3>
+            </div>
+            <div class="tile" onclick="openPost('machu_picchu.html')">
+                <img src="https://secretsofpatagonia.com/wp-content/uploads/2023/08/Hike-Mount-Fitz-Roy-Laguna-de-los-Tres.jpeg" alt="Machu Picchu">
+                <h3>MOUNT FITZ ROY HIKE IN PATAGONIA</h3>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Add Blog Button -->
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
